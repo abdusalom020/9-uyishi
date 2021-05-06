@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+h2{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+
+}
+
+.container{
+  max-width: 920px;
+  max-height: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.main-header{
+  display: flex;
+
+
+}
+
+.part{
+  width: 307px;
+  height: 500px;
+  margin: 0;
+  padding: 48px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.iconca{
+  width: 64px;
+  height: 40px;
+  left: 308px;
+  top: 219px;
+}
+
+.part1{
+  background-color: #e28625;
+}
+
+.part2{
+  background-color: #006971;
+}
+
+.part3{
+  background-color: #004140;
+}
+
+.part-a{
+  display: inline-flex;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  margin-top: 55px;
+  padding: 10px 20px;
+}
+
+.main-a{
+  color: #e28625;
+}
+
+.main-s{
+  color: #006971;
+}
+
+.main-d{
+  color: #004140;
+}
